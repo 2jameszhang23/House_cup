@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo" class="logo">
+    <button id="toggle-gender">Switch to Female</button>
+  </header>
+
+  <main>
+    <div class="college-container">
+      <div class="college" id="male-colleges">
+        <h2>Male Colleges</h2>
+        <div class="college-item">
+          <img src="college1.png" alt="College 1" class="college-logo">
+          <span>College 1</span>
+          <div class="score-bar">
+            <div class="score" style="width: 70%;">Goblet of Fire: 70</div>
+            <div class="score" style="width: 80%;">Improper Use of Magic: 80</div>
+            <div class="score" style="width: 90%;">Quidditch: 90</div>
+          </div>
+        </div>
+        <div class="college-item">
+          <img src="college2.png" alt="College 2" class="college-logo">
+          <span>College 2</span>
+          <div class="score-bar">
+            <div class="score" style="width: 60%;">Goblet of Fire: 60</div>
+            <div class="score" style="width: 50%;">Improper Use of Magic: 50</div>
+            <div class="score" style="width: 65%;">Quidditch: 65</div>
+          </div>
+        </div>
+        <!-- Add more colleges as needed -->
+      </div>
+
+      <div class="college" id="female-colleges" style="display: none;">
+        <h2>Female Colleges</h2>
+        <div class="college-item">
+          <img src="college1.png" alt="College 1" class="college-logo">
+          <span>College 1</span>
+          <div class="score-bar">
+            <div class="score" style="width: 80%;">Goblet of Fire: 80</div>
+            <div class="score" style="width: 75%;">Improper Use of Magic: 75</div>
+            <div class="score" style="width: 85%;">Quidditch: 85</div>
+          </div>
+        </div>
+        <div class="college-item">
+          <img src="college2.png" alt="College 2" class="college-logo">
+          <span>College 2</span>
+          <div class="score-bar">
+            <div class="score" style="width: 55%;">Goblet of Fire: 55</div>
+            <div class="score" style="width: 65%;">Improper Use of Magic: 65</div>
+            <div class="score" style="width: 70%;">Quidditch: 70</div>
+          </div>
+        </div>
+        <!-- Add more colleges as needed -->
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Leaderboard - Created by Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
