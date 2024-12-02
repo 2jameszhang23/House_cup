@@ -1,3 +1,4 @@
+/* Reset some default styles */
 * {
   margin: 0;
   padding: 0;
@@ -5,15 +6,17 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  font-family: 'Harry P', sans-serif;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
 }
 
 header {
   text-align: center;
   padding: 20px;
-  background-color: #4CAF50;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background for the header */
 }
 
 .logo {
@@ -23,20 +26,22 @@ header {
 
 button {
   padding: 10px 20px;
-  background-color: #f44336;
+  background-color: #8B0000;
   color: white;
   border: none;
   cursor: pointer;
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 button:hover {
-  background-color: #e32a2a;
+  background-color: #f44336;
 }
 
 main {
   padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* semi-transparent background for the content */
+  margin-top: 50px;
 }
 
 .college-container {
@@ -46,21 +51,23 @@ main {
 }
 
 .college {
-  width: 45%;
-  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .college h2 {
-  text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: 'Harry P', sans-serif;
 }
 
 .college-item {
-  background-color: white;
+  margin-bottom: 20px;
   padding: 15px;
-  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.1); /* semi-transparent background for each college */
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .college-logo {
@@ -71,21 +78,44 @@ main {
 }
 
 .score-bar {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .score {
-  background-color: #4CAF50;
-  color: white;
-  padding: 5px;
-  margin-top: 5px;
+  height: 30px;
   border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding-left: 10px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+
+.goblet-of-fire {
+  background-color: #FFD700;
+}
+
+.improper-use {
+  background-color: #C71585;
+}
+
+.quidditch {
+  background-color: #008080;
 }
 
 footer {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
   padding: 10px;
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.7);
   color: white;
+  font-size: 16px;
+}
+
+footer p {
+  font-family: 'Harry P', sans-serif;
+}
+
+button {
+  font-family: 'Harry P', sans-serif;
 }
