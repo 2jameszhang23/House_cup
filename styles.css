@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #4CAF50;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #e32a2a;
+}
+
+main {
+  padding: 20px;
+}
+
+.college-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.college {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.college h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.college-item {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.college-logo {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.score-bar {
+  margin-top: 10px;
+}
+
+.score {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
